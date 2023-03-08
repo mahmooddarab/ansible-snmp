@@ -1,0 +1,19 @@
+[myserver]
+#192.168.82.80 ansible_user=adwised ansible_become_password=s?N%gK9AE4
+#192.168.84.65 ansible_user=adws ansible_become_password=s?N%gK9AE4
+
+#[myserver]
+192.168.82.101 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.102 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.103 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.104 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.105 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.106 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.82.107 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+ 
+#192.168.84.32 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.84.33 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.84.34 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.84.35 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.84.36 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220
+#192.168.84.37 ansible_user=pushpole ansible_become_password=Al@dIh$"w0A2#F8z ansible_port=20220

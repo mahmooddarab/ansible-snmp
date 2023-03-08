@@ -1,0 +1,20 @@
+- name: --installsnmp
+  become: true
+  apt:
+    name: snmpd
+    state: present
+- name: ---copyconfigfile---
+  template:
+    src: snmpd.conf.j2
+    dest: /etc/snmp/snmpd.conf
+  become: true
+#  become_method: su
+#  become_user: adwised
+  tags: copy_configfile
+
+- name: --- enable and restart tom cat
+  become: true
+  service:
+    name: snmpd
+    state: restarted
+  tags: restarted_serive
